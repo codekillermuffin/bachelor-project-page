@@ -1,0 +1,104 @@
+body {
+    color: #5a5a5a;
+}
+main{
+    padding: 3em;
+}
+@media only screen and (min-width: 1200px) {
+    main{
+        margin: auto 10vw;
+        padding: 5em;
+    }
+}
+
+.marketing h2 {
+    font-weight: 400;
+}
+
+.featurette-divider {
+    margin: 4rem 0;
+}
+.centered{
+    text-align: center;
+}
+
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+    margin-bottom: 1em;
+}
+
+svg {
+    max-height: 100px;
+    max-width: 100px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ), url("images/background_image4.jpg") no-repeat top center fixed;
+    background-size: cover;
+    height: 70vh;
+    width: 100vw;
+}
+
+.header.flex{
+    justify-content: center;
+    align-items: center;
+}
+
+.title_text {
+    text-align: center;
+    position: sticky;
+    top: 1px;
+    color: white;
+}
+
+
+
+.doc{
+    text-decoration: none;
+    box-shadow: 0px 0px 27px -11px  rgba(0,0,0,0.2);
+    margin: 0.5em;
+    min-width: 15em;
+}
+.done:hover .doc_img {
+    filter: brightness(80%);
+    transition: 0.2s ease-in-out;
+    transform: scale(1.1);
+}
+
+.unfinished {
+    filter: brightness(40%);
+    pointer-events: none;
+    cursor: default;
+    color: black;
+}
+.flex.people{
+    justify-content: space-evenly;
+}
+.image-container{
+    width: 150px;
+    height: 200px;
+    clip-path: circle();
+    text-align: center;
+}
+
+.image-container > img{
+    width: auto;
+    height: 100%;
+    margin:auto;
+}
+
+.rotato{
+    transform: rotate(-2deg);
+}
