@@ -5,4 +5,4 @@ https://codekillermuffin.github.io/bachelor-project-page/
 
 
 Example images from within the application:
-![application image](images\Skjermbilde2024.png)
+![application image](images/Skjermbilde2024.png)
